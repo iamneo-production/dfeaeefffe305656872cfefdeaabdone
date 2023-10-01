@@ -1,10 +1,8 @@
-import java.beans.BeanProperty;
-
 @Configuration
-@ComponentScan(basePackages="com.exmaple");
+@ComponentScan(basePackages = "com.example")
 public class AppConfig {
     @Bean
-    public Student student(){
+    public Student student() {
         return new Student();
     }
 }
